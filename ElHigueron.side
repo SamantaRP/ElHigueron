@@ -1214,7 +1214,7 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "a5888506-cfe3-4e8f-8964-6b9280074cde",
+      "id": "90a317b3-2a09-4926-a17e-0ac35798b8d7",
       "comment": "",
       "command": "click",
       "target": "css=.pum-close",
@@ -1227,7 +1227,7 @@
       ],
       "value": ""
     }, {
-      "id": "df645c8b-ccee-42e4-bc1d-ab916213bcad",
+      "id": "1b5faf56-9967-43ee-9059-6937e16c707b",
       "comment": "",
       "command": "click",
       "target": "css=.wbc-alt-logo",
@@ -1237,13 +1237,6 @@
         ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/div/div/a/img[2]", "xpath:idRelative"],
         ["xpath=//img[2]", "xpath:position"]
       ],
-      "value": ""
-    }, {
-      "id": "8be64eab-08be-4681-b526-0d35ac051a19",
-      "comment": "",
-      "command": "assertText",
-      "target": "ElHigueron",
-      "targets": [],
       "value": ""
     }, {
       "id": "71b43167-aeea-4343-a241-6644142b2316",
@@ -1495,22 +1488,20 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "cd67e3d1-fcee-450c-aeb2-557134f2bed9",
+      "id": "e04bc9f7-ed2a-4ba7-983b-9dc4b50eff77",
       "comment": "",
       "command": "click",
-      "target": "linkText=RESERVA",
+      "target": "css=.pum-close",
       "targets": [
-        ["linkText=RESERVA", "linkText"],
-        ["css=.boton:nth-child(1)", "css:finder"],
-        ["xpath=//a[contains(text(),'RESERVA')]", "xpath:link"],
-        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/div/div[2]/a", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, '/reservas/')])[2]", "xpath:href"],
-        ["xpath=//div[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'RESERVA')]", "xpath:innerText"]
+        ["css=.pum-close", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='popmake-1484']/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'×')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "edc5347c-6078-417a-a24d-4a7ac1d8a064",
+      "id": "d624376c-07a1-48b6-b00d-f20be6886bdf",
       "comment": "",
       "command": "click",
       "target": "css=.fa-bars",
@@ -1521,7 +1512,7 @@
       ],
       "value": ""
     }, {
-      "id": "51975007-0354-417f-b384-ed1b808f1f45",
+      "id": "da70c6a1-e8f4-4896-a44b-03e210a36b9d",
       "comment": "",
       "command": "click",
       "target": "linkText=El Higuerón",
@@ -1533,9 +1524,20 @@
         ["xpath=(//a[contains(@href, 'https://elhigueron.com/higueron/')])[2]", "xpath:href"],
         ["xpath=//header/div/div/div/nav/ul/li/a", "xpath:position"]
       ],
+      "value": "EL HIGUERÓN"
+    }, {
+      "id": "209ea8f1-123c-4fed-af4d-06209367fff8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-bars",
+      "targets": [
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
       "value": ""
     }, {
-      "id": "c32d9d13-cfc9-4ae9-8dd1-db76550ce3f1",
+      "id": "893c0d79-5c68-408e-b2d5-bb24fb93d7c2",
       "comment": "",
       "command": "click",
       "target": "css=.wbc-submenu-arrow",
@@ -1546,7 +1548,29 @@
       ],
       "value": ""
     }, {
-      "id": "f495489f-ea33-4e70-ad58-a8f2a87540fc",
+      "id": "0996b069-ddc3-4327-852d-575dc44967c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-bars",
+      "targets": [
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20ce6f34-cbe3-4189-936e-0f1ea755d4e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-bars",
+      "targets": [
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24346cc2-f7d0-407f-9d72-5d579137daa5",
       "comment": "",
       "command": "click",
       "target": "linkText=Cócteles",
@@ -1558,9 +1582,9 @@
         ["xpath=(//a[contains(@href, 'https://elhigueron.com/cocteles/')])[2]", "xpath:href"],
         ["xpath=//header/div/div/div/nav/ul/li[3]/a", "xpath:position"]
       ],
-      "value": ""
+      "value": "CÓCTELES"
     }, {
-      "id": "8f5d9ecf-0b81-4c85-a216-4800baa51d2c",
+      "id": "aac62755-3ccd-4bbf-8d0b-b3d09352aac3",
       "comment": "",
       "command": "click",
       "target": "css=.fa-bars",
@@ -1571,7 +1595,29 @@
       ],
       "value": ""
     }, {
-      "id": "5fccaac6-ea90-4a8a-b19d-5fe3ce5d9e80",
+      "id": "778dc77b-3ef9-4a70-b5f9-ce67f7be0e7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-bars",
+      "targets": [
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b1ddcc0-c18d-44bc-8f1a-22d243e33111",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-bars",
+      "targets": [
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d982637-451b-4938-a75c-6bc25b1e0c11",
       "comment": "",
       "command": "click",
       "target": "linkText=Eventos",
@@ -1583,9 +1629,20 @@
         ["xpath=(//a[contains(@href, 'https://elhigueron.com/eventos/')])[2]", "xpath:href"],
         ["xpath=//header/div/div/div/nav/ul/li[4]/a", "xpath:position"]
       ],
+      "value": "EVENTOS"
+    }, {
+      "id": "c1fdf762-b572-45e5-bfc9-bb30bd116a00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-bars",
+      "targets": [
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
       "value": ""
     }, {
-      "id": "685ab4e5-1461-4dc0-851d-d90fa1513fe8",
+      "id": "1ea67eb6-9569-4863-aad2-9bef8dc5f5cb",
       "comment": "",
       "command": "click",
       "target": "linkText=Reserva tu mesa",
@@ -1597,45 +1654,20 @@
         ["xpath=(//a[contains(@href, 'https://elhigueron.com/reservas/')])[2]", "xpath:href"],
         ["xpath=//header/div/div/div/nav/ul/li[5]/a", "xpath:position"]
       ],
-      "value": ""
+      "value": "RESERVA TU MESA"
     }, {
-      "id": "a68eb6a7-f661-4a2f-917e-f4f6c5ed9373",
+      "id": "24eb5e32-c825-48e6-813a-c7cd72234bec",
       "comment": "",
       "command": "click",
-      "target": "css=.menu-icon",
+      "target": "css=.fa-bars",
       "targets": [
-        ["css=.menu-icon", "css:finder"],
-        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
-        ["xpath=//header/div/div/div/a", "xpath:position"]
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "2ce5158d-024c-4cc9-b0ae-e59c3947d9e7",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.menu-icon",
-      "targets": [
-        ["css=.menu-icon", "css:finder"],
-        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
-        ["xpath=//header/div/div/div/a", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "d0b17608-f3df-4941-9cec-b3d3955faa5e",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.menu-icon",
-      "targets": [
-        ["css=.menu-icon", "css:finder"],
-        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
-        ["xpath=//header/div/div/div/a", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "43e19863-3fc0-4df6-9469-654b606ccd68",
+      "id": "a26c8466-3d89-4ed5-942d-9823a849f169",
       "comment": "",
       "command": "click",
       "target": "linkText=Regala El Higuerón",
@@ -1647,9 +1679,9 @@
         ["xpath=(//a[contains(@href, 'https://elhigueron.com/regala-el-higueron/')])[2]", "xpath:href"],
         ["xpath=//header/div/div/div/nav/ul/li[6]/a", "xpath:position"]
       ],
-      "value": ""
+      "value": "REGALA"
     }, {
-      "id": "6a10adc8-9fc2-485b-8b46-dc5b83e12201",
+      "id": "6afe809e-6ef4-4b87-8553-8db79d9facb7",
       "comment": "",
       "command": "click",
       "target": "css=.fa-bars",
@@ -1660,7 +1692,7 @@
       ],
       "value": ""
     }, {
-      "id": "a1d4dff1-d55a-4787-9d98-38d94861e3d2",
+      "id": "010de460-e600-499b-b905-79e6b2b2cfba",
       "comment": "",
       "command": "click",
       "target": "linkText=ENG",
@@ -1672,9 +1704,9 @@
         ["xpath=(//a[contains(@href, 'https://elhigueron.com/en/regala-el-higueron-en/')])[2]", "xpath:href"],
         ["xpath=//header/div/div/div/nav/ul/li[7]/a", "xpath:position"]
       ],
-      "value": ""
+      "value": "ENG"
     }, {
-      "id": "7154fb0f-c256-4859-aaae-be395a41b6f2",
+      "id": "760f0649-e18b-4f76-b554-aea2aef7909f",
       "comment": "",
       "command": "close",
       "target": "",
@@ -1759,7 +1791,7 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "7c38a173-b524-45d3-9771-8164c6a87b14",
+      "id": "2c731e6d-0829-41e6-94b2-797085a4cfb2",
       "comment": "",
       "command": "click",
       "target": "css=.pum-close",
@@ -1772,16 +1804,25 @@
       ],
       "value": ""
     }, {
-      "id": "89b48f30-0287-46e8-aefe-307e0014d78c",
+      "id": "09a07f45-88cb-43c6-a0de-7f6fb9516835",
       "comment": "",
       "command": "click",
-      "target": "css=#menu-item-248 > a",
+      "target": "css=.fa-bars",
       "targets": [
-        ["css=#menu-item-248 > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Cartas')]", "xpath:link"],
-        ["xpath=//li[@id='menu-item-248']/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
-        ["xpath=//li[2]/a", "xpath:position"]
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6133d7c-fe59-4e55-a6ae-6f9f780a274e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wbc-submenu-arrow",
+      "targets": [
+        ["css=.wbc-submenu-arrow", "css:finder"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[2]/span", "xpath:idRelative"],
+        ["xpath=//li[2]/span", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -1896,7 +1937,7 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "3eb4c058-45e0-4dc7-adcb-47bb3ddfdb6d",
+      "id": "6d83f727-f21e-4b9b-bb40-40b7231c8bb4",
       "comment": "",
       "command": "click",
       "target": "css=.pum-close",
@@ -1909,16 +1950,28 @@
       ],
       "value": ""
     }, {
-      "id": "a96c5512-e0cc-4e77-bc9f-ec46a951cab6",
+      "id": "e13db84a-9c3b-428d-be2b-713e3c6dd29b",
       "comment": "",
       "command": "click",
-      "target": "css=#menu-item-321 > a",
+      "target": "css=.fa-bars",
       "targets": [
-        ["css=#menu-item-321 > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Cócteles')]", "xpath:link"],
-        ["xpath=//li[@id='menu-item-321']/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://elhigueron.com/cocteles/')]", "xpath:href"],
-        ["xpath=//nav/ul/li[3]/a", "xpath:position"]
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77080959-43fb-419e-9462-bfa76020ca09",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cócteles",
+      "targets": [
+        ["linkText=Cócteles", "linkText"],
+        ["css=#mobile-nav-menu-ul > .menu-item-321 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cócteles')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://elhigueron.com/cocteles/')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/div/nav/ul/li[3]/a", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -1948,361 +2001,6 @@
       "comment": "",
       "command": "setWindowSize",
       "target": "360x640",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "a5954b21-1f4f-4016-bb6e-4f3f8b47c5b0",
-      "comment": "",
-      "command": "click",
-      "target": "css=.pum-close",
-      "targets": [
-        ["css=.pum-close", "css:finder"],
-        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
-        ["xpath=//div[@id='popmake-1484']/button", "xpath:idRelative"],
-        ["xpath=//div/button", "xpath:position"],
-        ["xpath=//button[contains(.,'×')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "9274fcea-2f7e-4aa8-b2c7-62c37657e2e7",
-      "comment": "",
-      "command": "click",
-      "target": "css=#menu-item-514 > a",
-      "targets": [
-        ["css=#menu-item-514 > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Reserva tu mesa')]", "xpath:link"],
-        ["xpath=//li[@id='menu-item-514']/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://elhigueron.com/reservas/')]", "xpath:href"],
-        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "eba551b0-7869-42d8-9183-ae028c93d1a7",
-      "comment": "",
-      "command": "selectFrame",
-      "target": "index=0",
-      "targets": [
-        ["index=0"]
-      ],
-      "value": ""
-    }, {
-      "id": "2e562302-ef15-4e34-97f6-7a034e8cd49e",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=19",
-      "targets": [
-        ["linkText=19", "linkText"],
-        ["css=.ui-state-hover", "css:finder"],
-        ["xpath=//a[contains(text(),'19')]", "xpath:link"],
-        ["xpath=//div[@id='datepicker']/div/table/tbody/tr[3]/td[5]/a", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
-        ["xpath=//td[5]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'19')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "d471a31b-d14d-4548-bc00-f48458c928bd",
-      "comment": "",
-      "command": "click",
-      "target": "id=people-box-select",
-      "targets": [
-        ["id=people-box-select", "id"],
-        ["css=#people-box-select", "css:finder"],
-        ["xpath=//select[@id='people-box-select']", "xpath:attributes"],
-        ["xpath=//div[@id='personas_box']/select", "xpath:idRelative"],
-        ["xpath=//select", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "cb81dd2c-f39b-4d8d-9c17-7227f55bf5d0",
-      "comment": "",
-      "command": "select",
-      "target": "id=people-box-select",
-      "targets": [],
-      "value": "label=1 persona"
-    }, {
-      "id": "0300127e-13a6-403a-8614-5f1e073f93db",
-      "comment": "",
-      "command": "click",
-      "target": "id=hour-box-select",
-      "targets": [
-        ["id=hour-box-select", "id"],
-        ["css=#hour-box-select", "css:finder"],
-        ["xpath=//select[@id='hour-box-select']", "xpath:attributes"],
-        ["xpath=//div[@id='horas']/select", "xpath:idRelative"],
-        ["xpath=//div[2]/div[2]/div/select", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "6a2423f9-4982-4cb5-8e66-92e6b8bc2704",
-      "comment": "",
-      "command": "select",
-      "target": "id=hour-box-select",
-      "targets": [],
-      "value": "label=20:30"
-    }, {
-      "id": "12fa209d-caf0-44ca-ba11-c855cadc622c",
-      "comment": "",
-      "command": "click",
-      "target": "id=extra-box-select",
-      "targets": [
-        ["id=extra-box-select", "id"],
-        ["css=#extra-box-select", "css:finder"],
-        ["xpath=//select[@id='extra-box-select']", "xpath:attributes"],
-        ["xpath=//div[@id='extra_box']/select", "xpath:idRelative"],
-        ["xpath=//div[5]/select", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "0748203f-b0cb-4ee1-9ce0-2623586f2bd3",
-      "comment": "",
-      "command": "select",
-      "target": "id=extra-box-select",
-      "targets": [],
-      "value": "label=Comedor"
-    }, {
-      "id": "275ffb72-acb2-4209-b03d-47388610eb90",
-      "comment": "",
-      "command": "click",
-      "target": "css=.step1:nth-child(1)",
-      "targets": [
-        ["css=.step1:nth-child(1)", "css:finder"],
-        ["xpath=//input[@value='Reservar']", "xpath:attributes"],
-        ["xpath=//div[@id='reservar_button']/input", "xpath:idRelative"],
-        ["xpath=//div[12]/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "5ecbd1b9-aaba-4285-869e-e1db2917041e",
-      "comment": "",
-      "command": "click",
-      "target": "id=user_first_name",
-      "targets": [
-        ["id=user_first_name", "id"],
-        ["name=user_first_name", "name"],
-        ["css=#user_first_name", "css:finder"],
-        ["xpath=//input[@id='user_first_name']", "xpath:attributes"],
-        ["xpath=//div[@id='login_box']/div[2]/div/input", "xpath:idRelative"],
-        ["xpath=//div[5]/div/div[2]/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "18fe8328-b673-4f2d-89c6-f1d18a665593",
-      "comment": "",
-      "command": "type",
-      "target": "id=user_first_name",
-      "targets": [
-        ["id=user_first_name", "id"],
-        ["name=user_first_name", "name"],
-        ["css=#user_first_name", "css:finder"],
-        ["xpath=//input[@id='user_first_name']", "xpath:attributes"],
-        ["xpath=//div[@id='login_box']/div[2]/div/input", "xpath:idRelative"],
-        ["xpath=//div[5]/div/div[2]/div/input", "xpath:position"]
-      ],
-      "value": "SASA"
-    }, {
-      "id": "f2f849a9-978f-489f-96ca-1cba2fb71a06",
-      "comment": "",
-      "command": "click",
-      "target": "id=user_last_name",
-      "targets": [
-        ["id=user_last_name", "id"],
-        ["name=user_last_name", "name"],
-        ["css=#user_last_name", "css:finder"],
-        ["xpath=//input[@id='user_last_name']", "xpath:attributes"],
-        ["xpath=//div[@id='login_box']/div[2]/div[2]/input", "xpath:idRelative"],
-        ["xpath=//div[2]/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "6f6aa619-ff06-4dd2-9723-65b5ce399fce",
-      "comment": "",
-      "command": "type",
-      "target": "id=user_last_name",
-      "targets": [
-        ["id=user_last_name", "id"],
-        ["name=user_last_name", "name"],
-        ["css=#user_last_name", "css:finder"],
-        ["xpath=//input[@id='user_last_name']", "xpath:attributes"],
-        ["xpath=//div[@id='login_box']/div[2]/div[2]/input", "xpath:idRelative"],
-        ["xpath=//div[2]/input", "xpath:position"]
-      ],
-      "value": "RERE"
-    }, {
-      "id": "9e6ec8b2-94cd-4002-a7ee-bec7b4ed0b13",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.dropdown-toggle",
-      "targets": [
-        ["css=.dropdown-toggle", "css:finder"],
-        ["xpath=//button[@type='button']", "xpath:attributes"],
-        ["xpath=//div[@id='info_especial']/div[2]/div[2]/div/button", "xpath:idRelative"],
-        ["xpath=//div[2]/div/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "74884779-afd1-4197-9948-d4368db74649",
-      "comment": "",
-      "command": "click",
-      "target": "id=user_email",
-      "targets": [
-        ["id=user_email", "id"],
-        ["name=email", "name"],
-        ["css=#user_email", "css:finder"],
-        ["xpath=//input[@id='user_email']", "xpath:attributes"],
-        ["xpath=//div[@id='info_especial']/div/input", "xpath:idRelative"],
-        ["xpath=//div[3]/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "9ede9d05-4680-4b47-9010-54521ef95dc9",
-      "comment": "",
-      "command": "type",
-      "target": "id=user_email",
-      "targets": [
-        ["id=user_email", "id"],
-        ["name=email", "name"],
-        ["css=#user_email", "css:finder"],
-        ["xpath=//input[@id='user_email']", "xpath:attributes"],
-        ["xpath=//div[@id='info_especial']/div/input", "xpath:idRelative"],
-        ["xpath=//div[3]/div/input", "xpath:position"]
-      ],
-      "value": "SPL@GMAIL.COM"
-    }, {
-      "id": "32726ab5-ad80-4631-95c0-73cf568b28d3",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.dropdown-toggle",
-      "targets": [
-        ["css=.dropdown-toggle", "css:finder"],
-        ["xpath=//button[@type='button']", "xpath:attributes"],
-        ["xpath=//div[@id='info_especial']/div[2]/div[2]/div/button", "xpath:idRelative"],
-        ["xpath=//div[2]/div/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "a506276b-fd81-4267-9ffd-f65f94c349f4",
-      "comment": "",
-      "command": "click",
-      "target": "css=.dropdown-toggle",
-      "targets": [
-        ["css=.dropdown-toggle", "css:finder"],
-        ["xpath=//button[@type='button']", "xpath:attributes"],
-        ["xpath=//div[@id='info_especial']/div[2]/div[2]/div/button", "xpath:idRelative"],
-        ["xpath=//div[2]/div/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "920284fc-eae0-4547-b477-28e1dcbedda1",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.dropdown-toggle",
-      "targets": [
-        ["css=.dropdown-toggle", "css:finder"],
-        ["xpath=//button[@type='button']", "xpath:attributes"],
-        ["xpath=//div[@id='info_especial']/div[2]/div[2]/div/button", "xpath:idRelative"],
-        ["xpath=//div[2]/div/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "b6ae9943-7583-4338-ba8b-30aa26ba8d20",
-      "comment": "",
-      "command": "click",
-      "target": "id=user_phone",
-      "targets": [
-        ["id=user_phone", "id"],
-        ["name=user_phone", "name"],
-        ["css=#user_phone", "css:finder"],
-        ["xpath=//input[@id='user_phone']", "xpath:attributes"],
-        ["xpath=//div[@id='info_especial']/div[2]/div[3]/input", "xpath:idRelative"],
-        ["xpath=//div[3]/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "075afc83-532d-490d-a8fc-445f883825e8",
-      "comment": "",
-      "command": "type",
-      "target": "id=user_phone",
-      "targets": [
-        ["id=user_phone", "id"],
-        ["name=user_phone", "name"],
-        ["css=#user_phone", "css:finder"],
-        ["xpath=//input[@id='user_phone']", "xpath:attributes"],
-        ["xpath=//div[@id='info_especial']/div[2]/div[3]/input", "xpath:idRelative"],
-        ["xpath=//div[3]/input", "xpath:position"]
-      ],
-      "value": "687031366"
-    }, {
-      "id": "2424f17f-3526-4e61-941d-fcbc47c55ba5",
-      "comment": "",
-      "command": "click",
-      "target": "id=no_food_restrictions",
-      "targets": [
-        ["id=no_food_restrictions", "id"],
-        ["css=#no_food_restrictions", "css:finder"],
-        ["xpath=//input[@id='no_food_restrictions']", "xpath:attributes"],
-        ["xpath=//div[@id='aller']/input[2]", "xpath:idRelative"],
-        ["xpath=//input[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "49f3e256-64fd-4bbe-8a5a-efc0708feb57",
-      "comment": "",
-      "command": "click",
-      "target": "id=legal_ficha",
-      "targets": [
-        ["id=legal_ficha", "id"],
-        ["css=#legal_ficha", "css:finder"],
-        ["xpath=//input[@id='legal_ficha']", "xpath:attributes"],
-        ["xpath=//div[@id='login_box']/div[7]/div/input", "xpath:idRelative"],
-        ["xpath=//div[7]/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "a35469fd-a021-46f5-ae27-ebb57337e94d",
-      "comment": "",
-      "command": "click",
-      "target": "id=consentimiento_legal",
-      "targets": [
-        ["id=consentimiento_legal", "id"],
-        ["css=#consentimiento_legal", "css:finder"],
-        ["xpath=//input[@id='consentimiento_legal']", "xpath:attributes"],
-        ["xpath=//div[@id='login_box']/div[7]/div/input[2]", "xpath:idRelative"],
-        ["xpath=//div[7]/div/input[2]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "875e05e0-2fc7-4450-b5e6-b37b305d6512",
-      "comment": "",
-      "command": "click",
-      "target": "id=subscribe_newsletter",
-      "targets": [
-        ["id=subscribe_newsletter", "id"],
-        ["css=.col-sm-12:nth-child(1) > #subscribe_newsletter", "css:finder"],
-        ["xpath=//input[@id='subscribe_newsletter']", "xpath:attributes"],
-        ["xpath=//div[@id='login_box']/div[7]/div/input[3]", "xpath:idRelative"],
-        ["xpath=//input[3]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "cc4cde73-2cad-4f86-9118-1d432368fa52",
-      "comment": "",
-      "command": "click",
-      "target": "id=btn-validate",
-      "targets": [
-        ["id=btn-validate", "id"],
-        ["css=#btn-validate", "css:finder"],
-        ["xpath=//button[@id='btn-validate']", "xpath:attributes"],
-        ["xpath=//div[@id='reg_button']/button", "xpath:idRelative"],
-        ["xpath=//div[5]/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Reservar')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "559d97f0-e4f2-4a96-b1bf-a84774fc8662",
-      "comment": "",
-      "command": "close",
-      "target": "",
       "targets": [],
       "value": ""
     }]
@@ -2408,7 +2106,7 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "96c448f7-e4ad-4b74-a839-733c8add7a83",
+      "id": "d78a87f7-cc43-407d-8364-1d7ce03ec02e",
       "comment": "",
       "command": "click",
       "target": "css=.pum-close",
@@ -2421,52 +2119,49 @@
       ],
       "value": ""
     }, {
-      "id": "f4053746-b843-4a52-94b7-9f350bee4fd0",
+      "id": "9749de5b-bd22-46b7-b389-717b5783010b",
       "comment": "",
       "command": "click",
-      "target": "css=#menu-item-116 > a",
+      "target": "css=.fa-bars",
       "targets": [
-        ["css=#menu-item-116 > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Bar')]", "xpath:link"],
-        ["xpath=//li[@id='menu-item-116']/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://elhigueron.com/bar/')]", "xpath:href"],
-        ["xpath=//li[2]/ul/li/a", "xpath:position"]
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "de61d302-0520-46e5-bade-61caf5dfad8f",
+      "id": "a7f35058-bb27-49e2-9ce5-09c628481c7e",
       "comment": "",
       "command": "click",
-      "target": "css=.cartas:nth-child(2) > .carta-row:nth-child(2) > .carta-sub-col:nth-child(3)",
+      "target": "css=.fa-angle-down",
       "targets": [
-        ["css=.cartas:nth-child(2) > .carta-row:nth-child(2) > .carta-sub-col:nth-child(3)", "css:finder"],
-        ["xpath=//div[@id='wbc-64662f85829dd']/div[2]/div/div/div[3]/div/div/div/div[2]/div[2]/span[3]", "xpath:idRelative"],
-        ["xpath=//div[2]/span[3]", "xpath:position"],
-        ["xpath=//span[contains(.,'14.00')]", "xpath:innerText"]
+        ["css=.fa-angle-down", "css:finder"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[2]/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "05589e8b-1585-41e6-bb8e-8139e62e6a02",
+      "id": "becf335d-784d-40b8-bcb7-0c7e610896cc",
       "comment": "",
       "command": "click",
-      "target": "css=.carta-row:nth-child(17) > .carta-sub-col:nth-child(2)",
+      "target": "linkText=Bar",
       "targets": [
-        ["css=.carta-row:nth-child(17) > .carta-sub-col:nth-child(2)", "css:finder"],
-        ["xpath=//div[@id='wbc-64662f8586064']/div[2]/div/div/div[3]/div[2]/div/div/div/div[17]/span[2]", "xpath:idRelative"],
-        ["xpath=//div[17]/span[2]", "xpath:position"],
-        ["xpath=//span[contains(.,'10,00')]", "xpath:innerText"]
+        ["linkText=Bar", "linkText"],
+        ["css=.sub-menu:nth-child(3) > .menu-item-116 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Bar')])[3]", "xpath:link"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://elhigueron.com/bar/')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/div/nav/ul/li[2]/ul/li/a", "xpath:position"]
       ],
-      "value": ""
+      "value": "BAR"
     }, {
-      "id": "9eac7ac3-13ee-4a39-b99e-256c04eb18a1",
+      "id": "cb203b7d-ec21-4d8b-8237-fe2148250d26",
       "comment": "",
       "command": "click",
-      "target": "css=.carta-row:nth-child(17) > .carta-main-col",
+      "target": "css=.destacado",
       "targets": [
-        ["css=.carta-row:nth-child(17) > .carta-main-col", "css:finder"],
-        ["xpath=//div[@id='wbc-64662f8586064']/div[2]/div/div/div[3]/div[2]/div/div/div/div[17]/span", "xpath:idRelative"],
-        ["xpath=//div[17]/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Vieiras Con Caviar de Erizos (2 uds.)\n')]", "xpath:innerText"]
+        ["css=.destacado", "css:finder"],
+        ["xpath=//h2", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -2579,7 +2274,7 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "68a5dd17-3196-4508-bfb6-50df5b8d15ca",
+      "id": "88afb85c-6281-41db-b0bd-6001a11a7231",
       "comment": "",
       "command": "click",
       "target": "css=.pum-close",
@@ -2592,39 +2287,49 @@
       ],
       "value": ""
     }, {
-      "id": "87b0404c-14ea-47a9-aebc-776e9814fbad",
+      "id": "01d065e3-87f0-4262-8399-317619132ea6",
       "comment": "",
       "command": "click",
-      "target": "css=#menu-item-259 > a",
+      "target": "css=.fa-bars",
       "targets": [
-        ["css=#menu-item-259 > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Bar Non Stop')]", "xpath:link"],
-        ["xpath=//li[@id='menu-item-259']/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://elhigueron.com/bar-non-stop/')]", "xpath:href"],
-        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"]
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "b2d9bf38-aea3-4580-9033-e35bf491b0e8",
+      "id": "dab0bde9-80d0-486c-8a7d-7bac3a82fa2c",
       "comment": "",
       "command": "click",
-      "target": "css=.texto:nth-child(2) .carta-row:nth-child(2) > .carta-sub-col:nth-child(3)",
+      "target": "css=.wbc-submenu-arrow",
       "targets": [
-        ["css=.texto:nth-child(2) .carta-row:nth-child(2) > .carta-sub-col:nth-child(3)", "css:finder"],
-        ["xpath=//div[@id='wbc-6466115d5b8ce']/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/span[3]", "xpath:idRelative"],
-        ["xpath=//div[2]/span[3]", "xpath:position"],
-        ["xpath=//span[contains(.,'14,00')]", "xpath:innerText"]
+        ["css=.wbc-submenu-arrow", "css:finder"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[2]/span", "xpath:idRelative"],
+        ["xpath=//li[2]/span", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "4a2d01a8-055d-4a33-a14e-1fc1d3aca676",
+      "id": "444126f7-c23b-4d7a-99fc-7c97040135e9",
       "comment": "",
       "command": "click",
-      "target": "css=.animated > .carta-row:nth-child(2) > .carta-main-col",
+      "target": "linkText=Bar Non Stop",
       "targets": [
-        ["css=.animated > .carta-row:nth-child(2) > .carta-main-col", "css:finder"],
-        ["xpath=//div[@id='wbc-6466115d5e4f5']/div[3]/div/div/div[2]/div[2]/div/div/div/div/div[2]/span", "xpath:idRelative"],
-        ["xpath=//div[2]/div[2]/div/div/div/div/div[2]/span", "xpath:position"]
+        ["linkText=Bar Non Stop", "linkText"],
+        ["css=.sub-menu:nth-child(3) > .menu-item-259 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Bar Non Stop')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://elhigueron.com/bar-non-stop/')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/div/nav/ul/li[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "BAR NON STOP"
+    }, {
+      "id": "13f6a55d-79ca-4676-bc16-b41e4f10e00f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.destacado",
+      "targets": [
+        ["css=.destacado", "css:finder"],
+        ["xpath=//h2", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -2717,7 +2422,7 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "7d18013f-076c-4aba-b19a-de511ce4ee12",
+      "id": "0c2b24fb-ee7b-4e2b-972c-c70a820c3dc0",
       "comment": "",
       "command": "click",
       "target": "css=.pum-close",
@@ -2730,39 +2435,49 @@
       ],
       "value": ""
     }, {
-      "id": "bdf6a0e7-29ed-4df1-b784-1c3d8cb2875d",
+      "id": "d5669db6-2e06-417d-973f-95f1c8ec7a2d",
       "comment": "",
       "command": "click",
-      "target": "css=#menu-item-302 > a",
+      "target": "css=.fa-bars",
       "targets": [
-        ["css=#menu-item-302 > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Restaurante')]", "xpath:link"],
-        ["xpath=//li[@id='menu-item-302']/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://elhigueron.com/restaurante/')]", "xpath:href"],
-        ["xpath=//li[3]/a", "xpath:position"]
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "b1bc6a31-198e-4401-977a-f7dbbd66bf93",
+      "id": "d7ea8ec0-7932-4164-9d4d-7272352b08af",
       "comment": "",
       "command": "click",
-      "target": "css=.vc_row:nth-child(2) .wpb_wrapper > .cartas > .carta-row:nth-child(2) > .carta-sub-col",
+      "target": "css=.wbc-submenu-arrow",
       "targets": [
-        ["css=.vc_row:nth-child(2) .wpb_wrapper > .cartas > .carta-row:nth-child(2) > .carta-sub-col", "css:finder"],
-        ["xpath=//div[@id='wbc-6466120bbf977']/div[2]/div/div/div[2]/div[3]/div/div/div/div[2]/span[2]", "xpath:idRelative"],
-        ["xpath=//div[2]/span[2]", "xpath:position"],
-        ["xpath=//span[contains(.,'4,50')]", "xpath:innerText"]
+        ["css=.wbc-submenu-arrow", "css:finder"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[2]/span", "xpath:idRelative"],
+        ["xpath=//li[2]/span", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "da99fb7e-ded3-4ba5-b230-0bb5bfcd63dd",
+      "id": "a1227ffa-22ff-4185-a420-e385b6983b1e",
       "comment": "",
       "command": "click",
-      "target": "css=.animated > .carta-row:nth-child(2) > .carta-main-col",
+      "target": "linkText=Restaurante",
       "targets": [
-        ["css=.animated > .carta-row:nth-child(2) > .carta-main-col", "css:finder"],
-        ["xpath=//div[@id='wbc-6466120bc14e2']/div[3]/div/div/div[3]/div/div/div/div/div/div[2]/span", "xpath:idRelative"],
-        ["xpath=//div[3]/div/div/div/div/div/div[2]/span", "xpath:position"]
+        ["linkText=Restaurante", "linkText"],
+        ["css=.sub-menu:nth-child(3) > .menu-item-302 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Restaurante')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://elhigueron.com/restaurante/')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/div/nav/ul/li[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": "RESTAURANTE"
+    }, {
+      "id": "6a55b229-e85e-4845-b1f6-3a52a31c79ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.destacado",
+      "targets": [
+        ["css=.destacado", "css:finder"],
+        ["xpath=//h2", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -2854,14 +2569,7 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "f90643f4-9f84-4631-97ed-7923ca11e1f1",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "360x640",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "a724fe81-c6cd-4479-9369-86a0484a34c6",
+      "id": "93c92796-f64f-4b99-a129-e43d097299d2",
       "comment": "",
       "command": "click",
       "target": "css=.pum-close",
@@ -2874,53 +2582,64 @@
       ],
       "value": ""
     }, {
-      "id": "ba94613c-0428-407a-a325-02873d67108a",
+      "id": "96b8041d-5e84-450c-83c0-29cbe00e89b0",
       "comment": "",
       "command": "click",
-      "target": "css=#menu-item-248 > a",
+      "target": "css=.fa-bars",
       "targets": [
-        ["css=#menu-item-248 > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Cartas')]", "xpath:link"],
-        ["xpath=//li[@id='menu-item-248']/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
-        ["xpath=//li[2]/a", "xpath:position"]
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "abc128bf-5258-44cd-b59b-9531dce44015",
+      "id": "e904b5c1-2d15-468b-938c-e504c78d5e6f",
       "comment": "",
       "command": "click",
-      "target": "css=#menu-item-303 > a",
+      "target": "css=.fa-angle-down",
       "targets": [
-        ["css=#menu-item-303 > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Meriendas & desayunos')]", "xpath:link"],
-        ["xpath=//li[@id='menu-item-303']/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://elhigueron.com/meriendas-desayunos/')]", "xpath:href"],
-        ["xpath=//li[4]/a", "xpath:position"]
+        ["css=.fa-angle-down", "css:finder"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[2]/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "b6fe2fe2-f93e-4546-a7e8-c61072b33747",
+      "id": "c2b3fc46-c57e-4d4e-842c-fee772a6e97e",
       "comment": "",
       "command": "click",
-      "target": "css=.animated > .carta-row:nth-child(11) > .carta-main-col",
+      "target": "linkText=Meriendas & desayunos",
       "targets": [
-        ["css=.animated > .carta-row:nth-child(11) > .carta-main-col", "css:finder"],
-        ["xpath=//div[@id='wbc-64661540a63a6']/div[2]/div/div/div[2]/div[2]/div/div/div/div/div[11]/span", "xpath:idRelative"],
-        ["xpath=//div[11]/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Zumo de Naranja Natural Grande\n')]", "xpath:innerText"]
+        ["linkText=Meriendas & desayunos", "linkText"],
+        ["css=.sub-menu:nth-child(3) > .menu-item-303 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Meriendas & desayunos')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://elhigueron.com/meriendas-desayunos/')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/div/nav/ul/li[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": "MERIENDAS Y DESAYUNOS"
+    }, {
+      "id": "4e15e07c-84f1-4125-b80e-26fda5079625",
+      "comment": "",
+      "command": "click",
+      "target": "css=.destacado",
+      "targets": [
+        ["css=.destacado", "css:finder"],
+        ["xpath=//h2", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "2e7806e4-1745-43d2-878b-4447b471e846",
+      "id": "f90643f4-9f84-4631-97ed-7923ca11e1f1",
       "comment": "",
-      "command": "click",
-      "target": "css=.recurso",
-      "targets": [
-        ["css=.recurso", "css:finder"],
-        ["xpath=//div[@id='wbc-64661540a7648']/div[2]/div/div/div[4]/div/div", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/div[4]/div/div", "xpath:position"]
-      ],
+      "command": "setWindowSize",
+      "target": "360x640",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b74abb21-753e-4077-be78-5412f937c5f2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }, {
@@ -3008,7 +2727,7 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "652ce02a-e3cd-49c7-a81c-c1c0a034f652",
+      "id": "cdbe15c4-fb2b-4217-927b-4197ac1fb579",
       "comment": "",
       "command": "click",
       "target": "css=.pum-close",
@@ -3021,53 +2740,57 @@
       ],
       "value": ""
     }, {
-      "id": "20699522-d992-47a1-b4e5-4ae077a3f62b",
+      "id": "cbce9e9c-f5fc-48b5-89b1-1baa33ff3f62",
       "comment": "",
       "command": "click",
-      "target": "css=#menu-item-248 > a",
+      "target": "css=.fa-bars",
       "targets": [
-        ["css=#menu-item-248 > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Cartas')]", "xpath:link"],
-        ["xpath=//li[@id='menu-item-248']/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
-        ["xpath=//li[2]/a", "xpath:position"]
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "c083660b-97f3-421e-9eec-ab00e3ca973a",
+      "id": "2a0782d2-e021-4a17-a1c4-a5b4fc5e7fde",
       "comment": "",
       "command": "click",
-      "target": "css=#menu-item-304 > a",
+      "target": "css=.wbc-submenu-arrow",
       "targets": [
-        ["css=#menu-item-304 > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Infantil')]", "xpath:link"],
-        ["xpath=//li[@id='menu-item-304']/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://elhigueron.com/infantil/')]", "xpath:href"],
-        ["xpath=//li[5]/a", "xpath:position"]
+        ["css=.wbc-submenu-arrow", "css:finder"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[2]/span", "xpath:idRelative"],
+        ["xpath=//li[2]/span", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "c0d6006f-40b3-4d80-9981-8804869feb6d",
+      "id": "4b18b94e-7189-47cd-abbb-8daf3e502f0d",
       "comment": "",
       "command": "click",
-      "target": "css=.carta-row:nth-child(13) > .carta-sub-col",
+      "target": "linkText=Infantil",
       "targets": [
-        ["css=.carta-row:nth-child(13) > .carta-sub-col", "css:finder"],
-        ["xpath=//div[@id='wbc-64661960cb4d1']/div[3]/div/div/div[2]/div[2]/div/div/div/div/div[13]/span[2]", "xpath:idRelative"],
-        ["xpath=//div[13]/span[2]", "xpath:position"]
+        ["linkText=Infantil", "linkText"],
+        ["css=.sub-menu:nth-child(3) > .menu-item-304 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Infantil')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://elhigueron.com/infantil/')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/div/nav/ul/li[2]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": "INFANTIL"
+    }, {
+      "id": "fc8ed883-6fdd-4241-8dd0-1d1bf525d8ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.destacado",
+      "targets": [
+        ["css=.destacado", "css:finder"],
+        ["xpath=//h2", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "908417a7-b5f9-42e7-b044-6bdf59fd3e7c",
+      "id": "61b65249-6439-4119-a3df-96fad2e70b5a",
       "comment": "",
-      "command": "click",
-      "target": "css=.carta-row:nth-child(13) > .carta-main-col",
-      "targets": [
-        ["css=.carta-row:nth-child(13) > .carta-main-col", "css:finder"],
-        ["xpath=//div[@id='wbc-64661960cb4d1']/div[3]/div/div/div[2]/div[2]/div/div/div/div/div[13]/span", "xpath:idRelative"],
-        ["xpath=//div[13]/span", "xpath:position"],
-        ["xpath=//span[contains(.,'3 bolas\n')]", "xpath:innerText"]
-      ],
+      "command": "close",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }, {
@@ -3137,7 +2860,7 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "1eef046d-e7df-4ef2-bd0f-602c796e18a8",
+      "id": "9f16d985-bbf2-4d40-95e8-0aa5c999ee03",
       "comment": "",
       "command": "click",
       "target": "css=.pum-close",
@@ -3150,54 +2873,57 @@
       ],
       "value": ""
     }, {
-      "id": "73955e3d-995e-4848-8ae6-1f91db66231a",
+      "id": "af074609-0fb5-44dc-9e0f-5eab7ab156a4",
       "comment": "",
       "command": "click",
-      "target": "css=#menu-item-248 > a",
+      "target": "css=.fa-bars",
       "targets": [
-        ["css=#menu-item-248 > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Cartas')]", "xpath:link"],
-        ["xpath=//li[@id='menu-item-248']/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
-        ["xpath=//li[2]/a", "xpath:position"]
+        ["css=.fa-bars", "css:finder"],
+        ["xpath=//div[@id='undefined-sticky-wrapper']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "a5c34fff-75e9-422f-aa53-2d24dabdfc61",
+      "id": "ceef99dd-ed1b-4da6-ba04-3263f585df5d",
       "comment": "",
       "command": "click",
-      "target": "css=#menu-item-301 > a",
+      "target": "css=.fa-angle-down",
       "targets": [
-        ["css=#menu-item-301 > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Vinos')]", "xpath:link"],
-        ["xpath=//li[@id='menu-item-301']/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://elhigueron.com/vinos/')]", "xpath:href"],
-        ["xpath=//li[6]/a", "xpath:position"]
+        ["css=.fa-angle-down", "css:finder"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[2]/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "a9360433-3a53-4ac2-a746-962b96979893",
+      "id": "9a901e90-e81f-49a7-b2d7-ed68c6955bfc",
       "comment": "",
       "command": "click",
-      "target": "css=.wpb_wrapper > .cartas:nth-child(2) > .carta-row:nth-child(3) > .carta-sub-col",
+      "target": "linkText=Vinos",
       "targets": [
-        ["css=.wpb_wrapper > .cartas:nth-child(2) > .carta-row:nth-child(3) > .carta-sub-col", "css:finder"],
-        ["xpath=//div[@id='wbc-64661a09acc6e']/div[2]/div/div/div[3]/div/div/div/div[2]/div[3]/span[2]", "xpath:idRelative"],
-        ["xpath=//div[3]/span[2]", "xpath:position"],
-        ["xpath=//span[contains(.,'(copa) 3,6')]", "xpath:innerText"]
+        ["linkText=Vinos", "linkText"],
+        ["css=.sub-menu:nth-child(3) > .menu-item-301 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Vinos')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='mobile-nav-menu-ul']/li[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://elhigueron.com/vinos/')])[2]", "xpath:href"],
+        ["xpath=//header/div/div/div/nav/ul/li[2]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": "VINOS"
+    }, {
+      "id": "cb364f1c-48e2-4514-8b2c-84580cac1382",
+      "comment": "",
+      "command": "click",
+      "target": "css=.destacado",
+      "targets": [
+        ["css=.destacado", "css:finder"],
+        ["xpath=//h2", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "3b84a09e-6289-4d8d-a04e-5b0c1401e1c0",
+      "id": "d354113b-5f41-4a82-9818-233a525336d5",
       "comment": "",
-      "command": "click",
-      "target": "css=#wbc-64661a09b056c .proyeccion",
-      "targets": [
-        ["css=#wbc-64661a09b056c .proyeccion", "css:finder"],
-        ["xpath=//div[@id='wbc-64661a09b056c']/div[2]/div/div/div/div/h2", "xpath:idRelative"],
-        ["xpath=//div[6]/div[2]/div/div/div/div/h2", "xpath:position"],
-        ["xpath=//h2[contains(.,'Blancos')]", "xpath:innerText"]
-      ],
+      "command": "close",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }],
